@@ -1,6 +1,6 @@
 from math import sqrt
 
-cdef class Planet(object): b 
+cdef class Planet(object):
 	cdef public double x,y,z,vx,vy,vz,m
 	def __init__(self):
 		self.x=1.0
